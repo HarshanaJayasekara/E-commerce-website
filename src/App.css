@@ -1,0 +1,179 @@
+*{margin:0px; padding: 0px}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.bg-purple{background: #f5f5f7;}
+
+@media (min-width:1300px){
+  .container, .container-lg, .container-md, .container-xl {
+    max-width: 1200px;
+  }
+}
+
+.headerWrapper .top-strip{padding: 8px 0px;}
+.headerWrapper .top-strip p{
+  color: rgb(29, 29, 31);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42859;
+  letter-spacing: -.016em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+  a {
+    color: #06c;
+  }
+}
+
+.headerWrapper .header{
+  width: 100%;
+  height: auto;
+  padding: 15px 0px;
+
+  .part2 {
+
+    .countrydrop {
+      width: 150px;
+      height: 50px;
+      min-width: 170px;
+      padding: 10px ;
+      border: 1px solid #e0e0e0;
+      margin-right: 20px;
+
+      text-align: left;
+      justify-content: flex-start !important;
+
+      .label{
+        font-size: 12px !important;
+        text-transform: capitalize !important; 
+        color: black !important;
+      }
+      .name {
+        font-size: 14px !important;
+        text-transform: capitalize !important; 
+        color: black !important;
+        font-weight: 700;
+        line-height: 16px;
+      }
+
+      span.ml-auto svg {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+.logoWrapper img{
+  width: auto;
+  height: 140px;
+  position: relative;
+}
+
+
+
+.header .headerSreach{
+  width: 60%;
+  height: 50px;
+  background: #f5f5f7;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+
+  input {
+    background: transparent !important;
+    outline: none !important;
+    font-size: 14px; 
+    color: black;
+    width: 100%;
+    height: 45px;
+    border: 0px !important;
+    padding: 0px 20px !important;
+  }
+
+  button{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 100;
+    min-width: 40px !important;
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 50% !important;
+    color: black;
+    background: #f5f5f7;
+    border: 1px solid gray;
+
+    svg{
+      font-size: 17px;
+    }
+  }
+}
+
+.header {
+  .part3{
+    .circle{
+      align-items: center;
+      justify-content: center;
+      min-width: 50px !important;
+      height: 50px !important;
+      width: 50px !important;
+      border-radius: 50% !important;
+      border: none !important;
+      color: black;
+      margin: 10px;
+
+      svg{
+        font-size: 25px;
+        color: black;
+      }
+    }
+  }
+}
+
+.cartTab {
+  .price{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  button{
+    background: #f5f5f7 !important;
+
+    svg{
+      color: red !important;
+    }
+  }
+  .count{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: white;
+  }
+
+}
+
+
+nav {
+  .allCartTab{
+    background: #f5f5f7;
+    padding: 8px 20px !important;
+    border-radius: 20px;
+    border: gray 1px solid;
+
+    .text{
+      font-weight: 600;
+    }
+  }
+  .allCartTab *{
+    color: black;
+  }
+  .allCartTab:hover{
+    background: gray;
+  }
+}
